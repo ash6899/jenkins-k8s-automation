@@ -8,7 +8,8 @@ subject = "Regarding Your Last Commit "
 content = '''Hello,
                 Developer this is an email regarding your recent commit.
                  ERROR !! There is some error in your last commit.
-                 Or either rollback to the prvious version by changing the version in the version file and again commit'''+'\n or Again commit by removing the error !!  '
+                 Or either rollback to the prvious version by 
+                 changing the version in the version file and again commit'''+'\n or Again commit by removing the error !!  '
 message = MIMEMultipart()
 message['From'] = host_address
 message['To'] = guest_address
